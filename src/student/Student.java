@@ -2,6 +2,15 @@ package student;
 public class Student {
     private String studentId;
     private String studentName;
+    private String studentAddress;
+
+    public String getStudentAddress() {
+        return studentAddress;
+    }
+
+    public void setStudentAddress(String studentAddress) {
+        this.studentAddress = studentAddress;
+    }
 
     public Student(String studentId, String studentName) {
         this.studentId = studentId;
