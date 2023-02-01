@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 /*author: Suzana */
 /*fetch and merge*/
+/*pull*/
 
 public class ReverseWord {
     public static void main(String[] args){
